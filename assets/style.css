@@ -7,9 +7,11 @@
 /* Type */
 
 button {
-    outline: none;
-    background: none;
-    border: none;
+   background-color: rgb(98, 62, 165);
+   border: none;
+   border-radius: 15%;
+   padding: 15px;
+   color: aliceblue;
 }
 
 h1 {
@@ -34,13 +36,16 @@ h1 {
 .bar button {
     font-size: 20px;
     color:rgb(198, 39, 212);
+    outline: none;
+    background: none;
+    border: none;
 }
 
 .bar p {
     float: right;
 }
 
-/* Quiz Section */
+/* Main Section, Quiz Contents */
 
 .quiz-section {
     margin-left: 20%;
@@ -63,3 +68,4 @@ h1 {
 main {
     display: none;
 }
+
